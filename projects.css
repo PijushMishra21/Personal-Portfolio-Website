@@ -1,0 +1,83 @@
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+/* projects section started here */
+article{
+ text-align: center;
+} 
+.section5_heading{
+ text-align: center;
+ margin: 5px;
+ padding: 5px;
+ background-color: #010d0d;
+ color: aliceblue;
+ border-radius: 10px;
+ margin-left: 100px;
+ margin-right: 100px;
+ border: 5px solid rgb(255, 0, 191);
+}
+
+.section5_div{
+margin: 10px;
+padding: 5px;
+
+}
+
+
+.section5{
+ width: 100%;
+ height: 600px;
+ background-color: rgb(28, 4, 15); 
+ border-radius: 5px;
+ padding: 5px;
+}
+.Todo_div{
+  margin: 10px;
+ width: 500px;
+ height: 400px;
+ margin-top: 250px;
+ background-color: rgb(23, 22, 22);
+ margin-bottom: 250px;
+ border-radius: 10px;
+ transition: all 0.4s  ease-in-out;
+ box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.5);
+ color: #949698; 
+}
+ .Todo_div:hover{
+ color: rgb(144, 144, 215);
+padding: 25px;
+width: 450px;
+height: 460px;
+background-color: black;
+box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.5);
+} 
+
+.project_video{
+ height: 400px;
+ width: 400px;
+}
+.heading8{
+ text-align: center;
+ margin: 5px;
+ padding: 5px;
+ background-color: #010d0d;
+ color: aliceblue;
+ border-radius: 5px;
+ margin-left: 200px;
+ margin-right: 200px;
+}
+.project_btn_div{
+ margin-left: 1px;
+ margin-right: 1px;
+ background-color: rgb(28, 4, 15); 
+ border-radius: 5px;
+}
+.todo_btn{
+ margin-left: 100px;
+ padding-left: 250px;
+} 
+
+/* projects section ended here */

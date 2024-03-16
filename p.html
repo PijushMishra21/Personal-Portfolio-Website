@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Skills</title>
+<style>
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+/* Main styles */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+/* Section styles */
+.skills-container {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 20px;
+  transition: transform 0.3s ease-in-out;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn ease-out 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.skills-container:nth-child(odd) {
+  background-color: #FFE082; /* Yellow */
+}
+
+.skills-container:nth-child(even) {
+  background-color: #81D4FA; /* Blue */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Footer styles */
+footer {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>My Skills</h1>
+</header>
+
+<main>
+  <div class="skills-container">
+    <div id="percentage-html">90%</div>
+    <div><img src="html-icon.png" id="html-icon" alt="HTML Icon"></div>
+    <h1 id="heading-html">HTML</h1>
+    <p id="para-html">With a strong foundation in HTML, I am proficient in creating well-structured and semantically correct markup for web pages. I have expertise in implementing HTML5 features and best practices to ensure accessibility, SEO optimization, and cross-browser compatibility.</p>
+  </div>
+
+  <div class="skills-container">
+    <div id="percentage-css">85%</div>
+    <div><img src="css-icon.png" id="css-icon" alt="CSS Icon"></div>
+    <h1 id="heading-css">CSS</h1>
+    <p id="para-css">As an experienced CSS developer, I have a keen eye for design and a deep understanding of CSS principles and techniques. I specialize in creating responsive layouts, styling web elements, and implementing CSS animations and transitions to enhance user experience.</p>
+  </div>
+
+  <div class="skills-container">
+    <div id="percentage-js">80%</div>
+    <div><img src="js-icon.png" id="js-icon" alt="JavaScript Icon"></div>
+    <h1 id="heading-js">JavaScript</h1>
+    <p id="para-js">With proficiency in JavaScript, I am capable of developing interactive and dynamic web applications. I have expertise in working with JavaScript frameworks and libraries, implementing client-side validation, handling DOM manipulation, and integrating third-party APIs.</p>
+  </div>
+  
+  <div class="skills-container">
+    <div id="percentage-js">80%</div>
+    <div><img src="js-icon.png" id="js-icon" alt="JavaScript Icon"></div>
+    <h1 id="heading-js">JavaScript</h1>
+    <p id="para-js">With proficiency in JavaScript, I am capable of developing interactive and dynamic web applications. I have expertise in working with JavaScript frameworks and libraries, implementing client-side validation, handling DOM manipulation, and integrating third-party APIs.</p>
+  </div>
+  <div class="skills-container">
+    <div id="percentage-js">80%</div>
+    <div><img src="js-icon.png" id="js-icon" alt="JavaScript Icon"></div>
+    <h1 id="heading-js">JavaScript</h1>
+    <p id="para-js">With proficiency in JavaScript, I am capable of developing interactive and dynamic web applications. I have expertise in working with JavaScript frameworks and libraries, implementing client-side validation, handling DOM manipulation, and integrating third-party APIs.</p>
+  </div>
+  <div class="skills-container">
+    <div id="percentage-js">80%</div>
+    <div><img src="js-icon.png" id="js-icon" alt="JavaScript Icon"></div>
+    <h1 id="heading-js">JavaScript</h1>
+    <p id="para-js">With proficiency in JavaScript, I am capable of developing interactive and dynamic web applications. I have expertise in working with JavaScript frameworks and libraries, implementing client-side validation, handling DOM manipulation, and integrating third-party APIs.</p>
+  </div>
+
+  <div class="skills-container">
+    <div id="percentage-react">75%</div>
+    <div><img src="react-icon.png" id="react-icon" alt="React.js Icon"></div>
+    <h1 id="heading-react">React.js</h1>
+    <p id="para-react">As a skilled React.js developer, I specialize in building modern and efficient user interfaces for web applications. I have experience in developing reusable components, managing state and props, implementing routing, and optimizing performance using React hooks and context.</p>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2024 My Skills. All rights reserved</p>
+</footer>
+
+<script>
+// window.addEventListener('load', function() {
+//   var skillsContainers = document.querySelectorAll('.skills-container');
+//   var delay = 0.1;
+
+//   skillsContainers.forEach(function(container) {
+//     container.style.animationDelay = delay + 's';
+//     delay += 0.1;
+//   });
+// });
+</script>
+</body>
+</html>
