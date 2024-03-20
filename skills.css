@@ -1,37 +1,4 @@
-/* *{
- box-sizing: border-box;
- margin: 0;
- padding: 0;
-}
- 
-.sklils_svg{
- margin-left: 80px;
- width: 90%;
- height: 600px;
-}
-.Skills_section1{
- margin-left: 30px;
- padding: 10px;
- width: 95%;
- height: 300px;
-}
 
-.skills_card,.skills_logo{
- width: 200px;
- height: 200px;
-border: 2px solid gray;
-border-radius: 50px;
-transition: all 0.4s  ease-in-out;
-}
-.skills_card:hover{
- padding: 25px;
- width: 260px;
- height: 260px;
- background-color: black;
- box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.5);
-} 
-
-  */
   * {
     margin: 0;
     padding: 0;
@@ -51,6 +18,7 @@ transition: all 0.4s  ease-in-out;
     text-align: center;
     font-size: 28px;
     text-transform: uppercase;
+    margin-top: 0px;
   }
   
   /* Main styles */

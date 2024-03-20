@@ -5,13 +5,12 @@
       <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
                <link rel="stylesheet" href="style.css">
-                    <link rel="stylesheet" href="responcive.css">
                        <link rel="stylesheet" href="Moblie.css">
                          <link rel="stylesheet" href="tablet.css">
                       <link rel="stylesheet" href="details.css">
                    <link rel="stylesheet" href="skills.css">
               <script src="index.js"></script>
-           <link rel="icon" type="image/jpg+xml" href="c:\Users\acer\Pictures\IMG_20230927_151547.JPG" >
+           <link rel="icon" type="image/jpg+xml" href="images/portfolio logo.jpg" >
         <!-- <link rel="stylesheet" href="mobile.css"> -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
@@ -19,39 +18,49 @@
  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 </head>
 <body>
-  <header> 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
       <div class="container">
         <a class="navbar-brand" href="#"><img id="portfolio-logo" src="images/download.portfolio.png" alt=""></a>
+  
+        <!-- Navbar Toggler -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="d-flex align-items-center">
-          <button class="dark-mode-toggle ms-lg-2" onclick="toggleDarkMode()"><i class="fa-regular fa-moon"></i></button>
-        </div>
-        <div class="collapse navbar-collapse justify-content-between align-items-right" id="navbarNav">
+  
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="file:///D:/portfolio/index.html#home"  id="home_btn">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="file:///D:/portfolio/index.html#about-me" id="about-me_btn">About</a>
+              <a class="nav-link" href="details.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="file:///D:/portfolio/index.html#skills" id="skills_btn">Skills</a>
+              <a class="nav-link" href="skills.html">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="file:///D:/portfolio/index.html#Projects_section" id="project_btn">Projects</a>
+              <a class="nav-link" href="projects.html">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="file:///D:/portfolio/index.html#heading3" id="contact-me_btn">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>                 
           </ul>
+
+          <div class="align-items-center">
+            <button class="dark-mode-toggle ms-lg-2" onclick="toggleDarkMode()"><i class="fa-regular fa-moon"></i></button>
+          </div>
         </div>
       </div>
     </nav>
-    
-</header> 
+    <div class="marquee_div bg-success">
+      <marquee behavior="sliding" direction="left">Note-That : This Website are under mainteinance,  You may face some issues ,  Sorry for the inconveniances. </marquee>
+    </div>
+  </header>
+  
+
 <!-- header ended -->
 <div class="heading">
   <h1 >My Skills</h1>
@@ -67,7 +76,7 @@
   </li>
   <li>I have also communication skills and a collaborative mindset, fast learning adaptibility ,enabling effective teamwork and project coordination.
   </li>
-  <li>I have also mentioned my skills below percentage wise....
+  <li>I have also mentioned my    <pijush style="text-decoration: underline;">skills</pijush> details percentage  wise....
   </li>
 </ul>
 <main>
@@ -93,6 +102,13 @@
   </div>
 
   <div class="skills-container">
+    <div id="percentage-css">85%</div>
+    <div><img src="images/responcive_1images.jpeg" class="icon" alt="CSS Icon"></div>
+    <h1 id="heading-css">Responcive</h1>
+    <p id="para-css">As part of my skill set, I possess a strong command of responsive design principles and techniques. My expertise lies in designing fluid grid layouts, implementing responsive breakpoints, and optimizing content for optimal performance across desktops, laptops, tablets, and smartphones.</p>
+  </div>
+
+  <div class="skills-container">
     <div id="percentage-js">80%</div>
     <div><img src="images/free-javascript-9294848-7577991.png" class="icon" alt="JavaScript Icon"></div>
     <h1 id="heading-js">JavaScript</h1>
@@ -109,7 +125,7 @@
     <div id="percentage-react">75%</div>
     <div><img src="images/free-javascript-9294848-7577991.png" class="icon" alt="React.js Icon"></div>
     <h1 id="heading-react">JS DOM</h1>
-    <p id="para-react">As a skilled React.js developer, I specialize in building modern and efficient user interfaces for web applications. I have experience in developing reusable components, managing state and props, implementing routing, and optimizing performance using React hooks and context.</p>
+    <p id="para-react">As part of my skill set, I possess advanced proficiency in JavaScript DOM manipulation, a fundamental aspect of modern web development. With a deep understanding of the Document Object Model (DOM), I leverage JavaScript frameworks like jQuery or modern approaches using native DOM APIs to achieve efficient and optimized DOM manipulation. .</p>
   </div>
 
   
@@ -117,7 +133,7 @@
     <div id="percentage-react">75%</div>
     <div><img src="images/download.jpeg" class="icon" alt="React.js Icon"></div>
     <h1 id="heading-react">Api</h1>
-    <p id="para-react">As a skilled React.js developer, I specialize in building modern and efficient user interfaces for web applications. I have experience in developing reusable components, managing state and props, implementing routing, and optimizing performance using React hooks and context.</p>
+    <p id="para-react">Within my skill set, My proficiency in a wide range of APIs, including those for handling HTTP requests (such as the Fetch API or XMLHttpRequest), manipulating the browser's storage (LocalStorage, SessionStorage, IndexedDB), and accessing device capabilities (Geolocation API, Web Audio API, WebRTC). I am adept at integrating third-party APIs, such as social media APIs or payment gateways, to enhance the features and capabilities of web applications</p>
   </div>
 
   <div class="skills-container">
@@ -132,14 +148,19 @@
     <div id="percentage-react">75%</div>
     <div><img src="images/free-git-9294878-7578021.png" class="icon" alt="React.js Icon"></div>
     <h1 id="heading-react">Git</h1>
-    <p id="para-react">As a skilled React.js developer, I specialize in building modern and efficient user interfaces for web applications. I have experience in developing reusable components, managing state and props, implementing routing, and optimizing performance using React hooks and context.</p>
+    <p id="para-react"> Git, a distributed version control system widely used in software development.  understanding of Git's workflow and commands, managing code repositories, collaborating with teams, and tracking changes,initializing and configuring repositories, across projects..</p>
   </div>
 
   <div class="skills-container">
     <div id="percentage-react">75%</div>
     <div><img src="images/free-github-6343397-5221066.png" class="icon" alt="React.js Icon"></div>
     <h1 id="heading-react">Github</h1>
-    <p id="para-react">As a skilled React.js developer, I specialize in building modern and efficient user interfaces for web applications. I have experience in developing reusable components, managing state and props, implementing routing, and optimizing performance using React hooks and context.</p>
+    <p id="para-react"> Skilled in leveraging GitHub Pages for hosting static websites and documentation, enhancing project visibility and accessibility. In GitHub, I contribute to fostering effective collaboration, version control, and project management practices, ultimately driving the success of software projects hosted on the platform.
+
+
+
+
+      .</p>
   </div>
 
 
@@ -147,7 +168,7 @@
     <div id="percentage-react">50%</div>
     <div><img src="images/free-python-9294858-7578001.png" class="icon" alt="React.js Icon"></div>
     <h1 id="heading-react">Python</h1>
-    <p id="para-react">As a skilled React.js developer, I specialize in building modern and efficient user interfaces for web applications. I have experience in developing reusable components, managing state and props, implementing routing, and optimizing performance using React hooks and context.</p>
+    <p id="para-react">My proficiency in understanding of basic Python syntax, data types, control structures, and functions. I am adept at writing clean and concise Python code to solve simple programming tasks, such as mathematical calculations, string manipulation, and conditional logic. .</p>
   </div>
 
 
@@ -155,7 +176,7 @@
     <div id="percentage-react">50%</div>
     <div><img src="images/free-nodejs-9294859-7578002.png" class="icon" alt="React.js Icon"></div>
     <h1 id="heading-react">Node.js</h1>
-    <p id="para-react">As a skilled React.js developer, I specialize in building modern and efficient user interfaces for web applications. I have experience in developing reusable components, managing state and props, implementing routing, and optimizing performance using React hooks and context.</p>
+    <p id="para-react">Within my skill set, I have a basic foundation in Node.js, a powerful JavaScript runtime environment used for building scalable and high-performance server-side applications. I am adept at   handling HTTP requests, and building RESTful APIs</p>
   </div>
 
 
@@ -163,36 +184,30 @@
 
   <div class="skills-container">
     <div id="percentage-react">75%</div>
-    <div><img src="images/react_js.png" class="icon" alt="React.js Icon"></div>
-    <h1 id="heading-react">React.js</h1>
-    <p id="para-react">As a skilled React.js developer, I specialize in building modern and efficient user interfaces for web applications. I have experience in developing reusable components, managing state and props, implementing routing, and optimizing performance using React hooks and context.</p>
-  </div>
-  <div class="skills-container">
-    <div id="percentage-react">75%</div>
     <div><img src="images/download_redux (1).jpeg" class="icon" alt="React.js Icon"></div>
     <h1 id="heading-react">Redux </h1>
-    <p id="para-react">As a skilled React.js developer, I specialize in building modern and efficient user interfaces for web applications. I have experience in developing reusable components, managing state and props, implementing routing, and optimizing performance using React hooks and context.</p>
+    <p id="para-react">As a skilled React.js developer, Within my skill set, I possess a fundamental understanding of Redux, a predictable state management library commonly used in React applications. My proficiency encompasses grasping the core principles of Redux, including the concepts of actions, reducers, and the single immutable state tree.</p>
   </div>
 
   <div class="skills-container">
     <div id="percentage-react">75%</div>
     <div><img src="images/images toolkit .png" class="icon" alt="React.js Icon"></div>
-    <h1 id="heading-react">Redux </h1>
-    <p id="para-react">As a skilled React.js developer, I specialize in building modern and efficient user interfaces for web applications. I have experience in developing reusable components, managing state and props, implementing routing, and optimizing performance using React hooks and context.</p>
+    <h1 id="heading-react">Accessibility  </h1>
+    <p id="para-react">Understanding of web accessibility and browser compatibility.  I am adept at implementing accessible design principles, including providing alternative text for images, ensuring keyboard navigation, and using semantic HTML markup to enhance screen reader compatibility.</p>
   </div>
 
   <div class="skills-container">
     <div id="percentage-react">95%</div>
     <div><img src="images/free-visual-studio-code-9294844-7578027.png" class="icon" alt="React.js Icon"></div>
     <h1 id="heading-react">VS Code </h1>
-    <p id="para-react">As a skilled React.js developer, I specialize in building modern and efficient user interfaces for web applications. I have experience in developing reusable components, managing state and props, implementing routing, and optimizing performance using React hooks and context.</p>
+    <p id="para-react"> I am adept at leveraging VS Code's powerful editing features for code autocompletion, syntax highlighting, and smart code navigation to reduce development time. Additionally, I have experience using built-in version control integrations, like Git, within VS Code to manage code repositories .</p>
   </div>
 
   <div class="skills-container">
-    <div id="percentage-react">95%</div>
+    <div id="percentage-react">50%</div>
     <div><img src="images/download _testing(1).jpeg" class="icon" alt="React.js Icon"></div>
     <h1 id="heading-react">Testing </h1>
-    <p id="para-react">As a skilled React.js developer, I specialize in building modern and efficient user interfaces for web applications. I have experience in developing reusable components, managing state and props, implementing routing, and optimizing performance using React hooks and context.</p>
+    <p id="para-react"> A foundational understanding of testing methodologies and techniques, crucial for ensuring the reliability and quality of software applications.</p>
   </div>
 </main>
 
@@ -308,5 +323,6 @@
 
  <!-- footer ended here -->
 <script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

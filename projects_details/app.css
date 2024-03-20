@@ -1,0 +1,134 @@
+  /* Reset default margin and padding */
+  * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ /* Body styles */
+ body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: #f8f8f8;
+   color: #333;
+   padding-top: 100px;
+ }
+ 
+body.dark-mode{
+  background-color: rgb(28, 4, 15); 
+  transition-delay: 0.5s ease; 
+  color: #475eb1; 
+    } 
+  .dark-mode-toggle{
+    border-radius: 50px;
+    width: 50px;
+    border: none;
+    background-color: #010d0d;
+  color: #FFFFFF;
+  }
+  .dark-mode-toggle:hover{
+    background-color: #085252;
+  
+  }
+  .fa-moon{
+    font-size: 30px;
+  } 
+
+ /* Header styles */
+ header {
+   /* background-color: #4CAF50; */
+   color: #fff;
+   /* padding: 20px 0; */
+   text-align: center;
+ }
+ 
+ header h1 {
+   font-size: 28px;
+   text-transform: uppercase;
+ }
+ 
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; 
+  box-shadow: 0px 0px 10px 0px gray;
+  
+}
+
+.navbar-nav .nav-link:hover {
+  transform: scale(1.1);
+  text-decoration: overline;
+}
+
+ #portfolio-logo{
+width: 100px;
+border-radius: 15px;
+ padding: 1px; ; 
+}  
+
+
+
+
+ /* Main styles */
+ main {
+   padding: 20px;
+ }
+ 
+ /* Section styles */
+ .project-details {
+   /* background-color: #fff; */
+   border-radius: 8px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   padding: 30px;
+ }
+ 
+ .project-details h2 {
+   font-size: 24px;
+   color: #333;
+   margin-bottom: 20px;
+ }
+ 
+ .quiz-info p {
+   line-height: 1.6;
+   margin-bottom: 15px;
+ }
+ 
+ .quiz-info img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+   margin: 0 auto 20px;
+ }
+ 
+ .questions ol {
+   list-style: none;
+   padding-left: 0;
+ }
+ 
+ .questions li {
+   margin-bottom: 15px;
+ }
+ 
+ .questions p {
+   margin-bottom: 5px;
+ }
+ 
+ .video video {
+   display: block;
+   width: 100%;
+   max-width: 600px;
+   margin: 20px auto;
+ }
+ 
+ /* Footer styles */
+ footer {
+   background-color: #4CAF50;
+   color: #fff;
+   padding: 10px 0;
+   text-align: center;
+ }
+ 
+ footer p {
+   font-size: 14px;
+ }
+ 

@@ -5,8 +5,11 @@
 }
 
 /* projects section started here */
+
 article{
  text-align: center;
+ color: rgb(184, 34, 14);
+ text-decoration:underline;
 } 
 .section5_heading{
  text-align: center;
