@@ -54,6 +54,14 @@ body{
  margin-right: 200px;
 }
 
+.footer{
+  background-color: black;
+   color: #fff;
+   padding: 10px 0;
+   text-align: center;
+   height: 100px;
+}
+
 @media screen and (max-width: 1024px) {
   .personal_image {
     width: 150px;
@@ -77,11 +85,24 @@ body{
     transform: translateX(-50%);
   }
 
+
+
   .personal_heading,
   .personal_para {
     margin-left: 5%;
     margin-right: 5%;
   }
+
+  .footer{
+    background-color: black;
+     color: #fff;
+     padding: 10px 0;
+     text-align: center;
+     height: 160px;
+     padding-right: 50px;
+
+  }
+  
 }
 
 @media screen and (max-width: 1268px) {
