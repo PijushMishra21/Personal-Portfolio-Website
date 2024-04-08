@@ -6,32 +6,14 @@
  }
  
  /* Body styles */
- body {
+ .body {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   background-color: #f8f8f8;
-   color: #333;
+   background-color: rgb(0, 0, 9);
    padding-top: 100px;
+   color:#868383;
+
  }
  
-body.dark-mode{
-  background-color: rgb(28, 4, 15); 
-  transition-delay: 0.5s ease; 
-  color: #475eb1; 
-    } 
-  .dark-mode-toggle{
-    border-radius: 50px;
-    width: 50px;
-    border: none;
-    background-color: #010d0d;
-  color: #FFFFFF;
-  }
-  .dark-mode-toggle:hover{
-    background-color: #085252;
-  
-  }
-  .fa-moon{
-    font-size: 30px;
-  } 
 
  /* Header styles */
  header {
@@ -84,10 +66,12 @@ border-radius: 15px;
  
  .project-details h2 {
    font-size: 24px;
-   color: #333;
+   color:#fff;
    margin-bottom: 20px;
  }
- 
+ .quiz-info h3,.questions h3,.video h3{
+  color:#fff;
+ }
  .quiz-info p {
    line-height: 1.6;
    margin-bottom: 15px;

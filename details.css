@@ -3,9 +3,9 @@
  margin: 0;
  padding: 0;
 }
-body{
+.body{
  padding-top: 150px;
- 
+
 }
 
 
@@ -46,12 +46,13 @@ body{
 
 .personal_heading{
  margin-left: 200px;
-
+color: #fff;
 }
 .personal_para{
  margin: 20px;
  margin-left: 200px;
  margin-right: 200px;
+ color:#868383;
 }
 
 .footer{

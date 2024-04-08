@@ -1,4 +1,20 @@
 
+
+// window.addEventListener('DOMContentLoaded', function() {
+//   const messageContainer = document.getElementById('messageContainer');
+//   messageContainer.style.display = 'block';
+//   setTimeout(() => {
+//     messageContainer.style.display = 'block';
+//   }, 5000);
+//   console.log('animated');
+// });
+
+
+
+
+
+
+
 window.onload = function() {
  let textElement = document.querySelector('.heading5');
  let textContents = ["('A FRONTEND WEB DEVELOPER')", "('A FRONTEND ENGINEAR')", "('A REACTJS DEVELOPER')", "('A JAVASCRIPT DEVELOPER')","('A SOFTWARE DEVELOPER')","('A UI/UX DEVELOPER')"]; 
@@ -45,14 +61,14 @@ window.onload = function() {
 
 
     
-function clearForm(){
-  document.getElementById("contact_form").reset();
-}
-let contact_form = document.getElementById("contact_form");
-contact_form.addEventListener('submit',function (event){
-  // event.preventDefault();
-  clearForm();
-})
+// function clearForm(){
+//   document.getElementById("contact_form").reset();
+// }
+// let Contact_form = document.getElementById("contact_form");
+// Contact_form.addEventListener('submit',()=>{
+//   // event.preventDefault();
+//   clearForm();
+// })
 
 
 
@@ -99,27 +115,5 @@ contact_form.addEventListener('submit',function (event){
       //     delay += 0.1;
       //   });
       // });
-
-
-
-
-function toggleDarkMode() {
-  console.log('Toggling dark mode...'); // Check if this message is logged in the console
-  
-  let body = document.body;
-  let darkModeEnabled = body.classList.toggle('dark-mode');
-  
-  if (darkModeEnabled) {
-    localStorage.setItem('darkMode', 'true'); // Store dark mode preference as true
-    console.log('Dark mode preference set to true'); // Check if this message is logged in the console
-  } else {
-    localStorage.setItem('darkMode', 'false'); // Store dark mode preference as false
-    console.log('Dark mode preference set to false'); // Check if this message is logged in the console
-  }
-}
-
-
-
-
 
 
