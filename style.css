@@ -261,10 +261,10 @@ font-size: 18px;
 
  
 
- .project_video{
+ /* .project_video{
   height: 400px;
   width: 400px;
- }
+ } */
 
 .heading8{
   text-align: center;
@@ -295,10 +295,10 @@ font-size: 18px;
 } 
 
 #projects {
-  padding-left: 80px;
+   padding-left: 80px;
   padding-right: 80px;
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap;  */
   /* gap: 10px; */
 }
 
