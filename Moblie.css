@@ -389,13 +389,13 @@
     margin-bottom: 10px;
    }
    .project {
-    margin-left: 150px;
+    /* margin-left: 150px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
     transition: all 0.4s  ease;
     box-shadow: 0 0 10px 3px rgba(171, 170, 170, 0.5);
-  
+     */
     }
     .footer{
       width: 100%;
@@ -409,7 +409,7 @@
       /* word-spacing: 15px; */
       text-decoration: none;
     }
-    
+      
     .footer-menu #footer_list{
       text-decoration: none;
       border: none;
@@ -429,10 +429,6 @@
 
 
  
-
-
-
-
   }
 
 
@@ -548,14 +544,15 @@
 
   .project {
     text-align: center;
-    margin-left: 25px;
-    width: 300px;
+    /* margin-left: 20px; */
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
+    margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
     transition: all 0.4s  ease;
     box-shadow: 0 0 10px 3px rgba(171, 170, 170, 0.5);
-  
   }
    
 
